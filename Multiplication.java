@@ -3,18 +3,18 @@ class Multiplication
 {
     public static void main(String []args)
     {
-        int no,multiplicant,result=0;
+        int multiplicand,multiplier,result=0;
 
         System.out .println("Enter the nos");
         Scanner sc =new Scanner(System.in);
        
-        no=sc.nextInt();
+        multiplicand=sc.nextInt();
          System.out.println("Enter the power");
-        multiplicant=sc.nextInt();
+        multiplier=sc.nextInt();
 
-        for (int i=1;i<=multiplicant;i++)
+        for (int i=1;i<=multiplier;i++)
         {
-          System.out .println(no+"*"+i+"="+no*i);
+          System.out .println( multiplicand+"*"+i+"="+ multiplicand*i);
         }
       
         }
